@@ -40,7 +40,7 @@ function Navbar() {
     setSidebarOpen(false);
   };
   return (
-    <div className="flex items-center justify-between px-5 md:px-12 lg:px-20 xl:px-32 py-5">
+    <div className="flex items-center justify-between px-5 md:px-12 lg:px-20 xl:px-32 py-5 sticky top-0 z-50 bg-white">
       {/* logo */}
       {/* desktop navbar */}
       <div className="">
@@ -60,7 +60,7 @@ function Navbar() {
           <button className="py-[10px] px-5  rounded-md text-primary text-sm hover:bg-primary hover:text-white">
             Login
           </button>
-          <button className="py-[10px] px-5 bg-primary rounded-md text-white text-sm whitespace-nowrap hover:text-primary hover:bg-white hover:border-primary hover:border">
+          <button className="py-[10px] px-5 bg-primary border border-primary rounded-md text-white text-sm whitespace-nowrap hover:text-primary hover:bg-white hover:border-primary hover:border">
             Sign up
           </button>
         </div>
