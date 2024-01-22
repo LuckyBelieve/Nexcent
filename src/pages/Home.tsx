@@ -6,11 +6,11 @@ function Home() {
       <div className="flex justify-between">
         <div className="flex flex-col gap-8 justify-center">
           <div className="flex flex-col gap-4 ">
-            <h1 className=" text-6xl font-semibold text-[#4D4D4D]" style={{lineHeight:"76px"}}>
+            <h1 className=" text-6xl font-semibold text-heading_black" style={{lineHeight:"76px"}}>
               Lessons and insights <br />
               <span className="text-primary"> from 8 years</span>
             </h1>
-            <p className="text-base font-normal text-[#717171]">
+            <p className="text-base font-normal text-text_black">
               Where to grow your business as a photographer: site or social
               media?
             </p>

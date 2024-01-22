@@ -23,6 +23,8 @@ export default {
         warning:"#FBC02D",
         error:"#E53835",
         success:"#2E7D31",
+        heading_black:"#4D4D4D",
+        text_black:"#717171",
       }
     },
   },

@@ -4,8 +4,8 @@ function Clients() {
   return (
     <div className="py-10 px-36 flex flex-col gap-4">
       <div className="flex flex-col gap-2 items-center">
-        <h1 className="text-4xl font-semibold">Our Clients</h1>
-        <p className="text-base font-normal">
+        <h1 className="text-4xl font-semibold text-heading_black">Our Clients</h1>
+        <p className="text-base font-normal text-text_black">
           We have been working with some Fortune 500+ clients
         </p>
       </div>
