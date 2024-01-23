@@ -10,22 +10,22 @@ function Clients() {
         </p>
       </div>
       <div className="flex justify-between">
-        <div>
+        <div className="py-6">
           <img src="/clients/Logo-1.svg" alt="Logo-1" />
         </div>
-        <div>
+        <div className="py-6">
           <img src="/clients/Logo-2.svg" alt="Logo-2" />
         </div>
-        <div>
+        <div className="py-6">
           <img src="/clients/Logo-3.svg" alt="Logo-3" />
         </div>
-        <div>
+        <div className="py-6">
           <img src="/clients/Logo-4.svg" alt="Logo-4" />
         </div>
-        <div>
+        <div className="py-6">
           <img src="/clients/Logo-5.svg" alt="Logo-5" />
         </div>
-        <div>
+        <div className="py-6">
           <img src="/clients/Logo-6.svg" alt="Logo-6" />
         </div>
       </div>
