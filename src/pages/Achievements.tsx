@@ -1,5 +1,6 @@
 import React from "react";
 import Stats from "../components/Stats";
+import { FaArrowRight } from "react-icons/fa6";
 
 function Achievements() {
   return (
@@ -56,6 +57,63 @@ function Achievements() {
           <button className="py-[14px] px-8 bg-primary w-fit rounded text-white">
             Learn More
           </button>
+        </div>
+      </div>
+
+      {/* customers */}
+      <div className="flex flex-row justify-between px-36 bg-bg_gray py-8">
+        <div className="w-[35%]">
+          <img src="/howto/image 9.png" alt="image" />
+        </div>
+        <div className="flex flex-col gap-8 w-[65%]">
+          <div className="flex flex-col gap-4">
+            <p className="text-sm font-normal text-text_black">
+              Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
+              lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
+              enim metus. Vivamus sed libero ornare, tristique quam in, gravida
+              enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet
+              elit at ligula molestie, nec molestie mi blandit. Suspendisse
+              cursus tellus sed augue ultrices, quis tristique nulla sodales.
+              Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse
+              potenti. Quisque malesuada enim sapien, vitae placerat ante
+              feugiat eget. Quisque vulputate odio neque, eget efficitur libero
+              condimentum id. Curabitur id nibh id sem dignissim finibus ac sit
+              amet magna.
+            </p>
+            <div className="flex flex-col gap-2">
+              <h1 className="text-[20px] font-semibold text-primary">
+                Tim Smith
+              </h1>
+              <p className="text-sm font-normal text-text_black">
+                British Dragon Boat Racing Association
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-row gap-8 items-center whitespace-nowrap">
+            <div className="flex flex-row gap-10">
+              <div>
+                <img src="/clients/Logo-1.svg" alt="Logo-1" />
+              </div>
+              <div>
+                <img src="/clients/Logo-2.svg" alt="Logo-1" />
+              </div>
+              <div>
+                <img src="/clients/Logo-3.svg" alt="Logo-1" />
+              </div>
+              <div>
+                <img src="/clients/Logo-4.svg" alt="Logo-1" />
+              </div>
+              <div>
+                <img src="/clients/Logo-5.svg" alt="Logo-1" />
+              </div>
+              <div>
+                <img src="/clients/Logo-6.svg" alt="Logo-1" />
+              </div>
+            </div>
+            <button className="p-8 flex gap-2 items-center text-primary">
+              Meet all customers <FaArrowRight/>
+            </button>
+          </div>
         </div>
       </div>
     </section>
