@@ -25,6 +25,7 @@ export default {
         success:"#2E7D31",
         heading_black:"#4D4D4D",
         text_black:"#717171",
+        bg_gray:"#F5F7FA",
       }
     },
   },

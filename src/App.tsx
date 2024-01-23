@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Clients from "./pages/Clients";
 import Community from "./pages/Community";
+import Achievements from "./pages/Achievements";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Home/>
         <Clients/>
         <Community/>
+        <Achievements/>
       </div>
     </Router>
   );
