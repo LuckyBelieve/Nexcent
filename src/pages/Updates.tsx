@@ -16,7 +16,7 @@ function Updates() {
           more.​
         </p>
       </div>
-      <div className="flex flex-col lg:flex-row justify-between px-5 md:px-20 lg:px-36 pt-5 pb-24 gap-5 md:gap-0 ">
+      <div className="flex flex-col lg:flex-row justify-between px-5 md:px-20 lg:px-36 pt-5 pb-24 gap-5 lg:gap-0 ">
         <UpdateCard
           image="/blog/image 18.png"
           desc="Creating Streamlined Safeguarding Processes with OneRen"

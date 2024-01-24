@@ -91,13 +91,13 @@ function Achievements() {
           </div>
           <div className="flex flex-row gap-8 items-center whitespace-nowrap">
             <div className="flex flex-row gap-10">
-              <div className="hidden md:block">
+              <div className="hidden lg:block">
                 <img src="/clients/Logo-1.svg" alt="Logo-1" />
               </div>
-              <div className="hidden md:block">
+              <div className="hidden lg:block">
                 <img src="/clients/Logo-2.svg" alt="Logo-1" />
               </div>
-              <div className="hidden md:block">
+              <div className="hidden lg:block">
                 <img src="/clients/Logo-3.svg" alt="Logo-1" />
               </div>
               <div>

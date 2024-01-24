@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <section id="home" className=" px-5 md:py-12 md:px-20  lg:py-24 lg:px-36">
+    <section id="home" className=" px-5 py-12 md:px-20  lg:py-24 lg:px-36">
       <div className="flex flex-col md:flex-row justify-between gap-3">
         <div className="flex flex-col gap-8 justify-center">
           <div className="flex flex-col gap-4 ">

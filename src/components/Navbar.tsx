@@ -40,7 +40,7 @@ function Navbar() {
     setSidebarOpen(false);
   };
   return (
-    <div className="flex items-center justify-between px-5 md:px-12 lg:px-20 xl:px-32 py-5 sticky top-0 z-50 bg-white">
+    <div className="flex items-center justify-between px-5 md:px-12 lg:px-20 xl:px-32 py-5 sticky top-0 z-50 bg-white shadow-md ">
       {/* logo */}
       {/* desktop navbar */}
       <div className="">
