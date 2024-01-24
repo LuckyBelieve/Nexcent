@@ -5,6 +5,7 @@ import Clients from "./pages/Clients";
 import Community from "./pages/Community";
 import Achievements from "./pages/Achievements";
 import Updates from "./pages/Updates";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Community/>
         <Achievements/>
         <Updates/>
+        <Footer/>
       </div>
     </Router>
   );

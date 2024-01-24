@@ -1,5 +1,6 @@
 import React from "react";
 import UpdateCard from "../components/UpdateCard";
+import { FaArrowRight } from "react-icons/fa6";
 
 function Updates() {
   return (
@@ -16,9 +17,26 @@ function Updates() {
         </p>
       </div>
       <div className="flex justify-between px-36 pt-5 pb-24 ">
-        <UpdateCard image="/blog/image 18.png" desc="Creating Streamlined Safeguarding Processes with OneRen"/>
-        <UpdateCard image="/blog/image 19.png" desc="What are your safeguarding responsibilities and how can you manage them?"/>
-        <UpdateCard image="/blog/image 20.png" desc="Revamping the Membership Model with Triathlon Australia"/>
+        <UpdateCard
+          image="/blog/image 18.png"
+          desc="Creating Streamlined Safeguarding Processes with OneRen"
+        />
+        <UpdateCard
+          image="/blog/image 19.png"
+          desc="What are your safeguarding responsibilities and how can you manage them?"
+        />
+        <UpdateCard
+          image="/blog/image 20.png"
+          desc="Revamping the Membership Model with Triathlon Australia"
+        />
+      </div>
+
+      {/* last */}
+      <div className="flex flex-col items-center justify-center gap-8 bg-bg_gray py-8">
+        <h1 className="text-center text-6xl font-semibold  md:w-[65%] lg:w-[55%] text-heading_black">
+          Pellentesque suscipit fringilla libero eu.
+        </h1>
+        <button className="px-8 py-4 flex items-center gap-2 bg-primary text-white rounded">Get a Demo <FaArrowRight/></button>
       </div>
     </section>
   );
