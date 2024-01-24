@@ -3,8 +3,8 @@ import { FaTelegramPlane } from 'react-icons/fa'
 
 function Footer() {
   return (
-    <section className='px-36 py-16 bg-heading_black text-white'>
-        <div className='flex justify-between '>
+    <section className=' px-5 xl:px-36 py-16 bg-heading_black text-white'>
+        <div className='flex flex-col lg:flex-row justify-between '>
             <div className='flex flex-col gap-10'>
                 <div>
                     <img src="/Logo.svg" alt="logo" />
@@ -28,7 +28,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-row justify-between w-[60%]'>
+            <div className='flex flex-col md:flex-row justify-between lg:w-[60%]'>
                 <div className='flex flex-col gap-6'>
                     <h1 className='text-[20px] font-semibold'>Company</h1>
                     <div className='flex flex-col gap-3'>

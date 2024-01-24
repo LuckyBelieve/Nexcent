@@ -6,8 +6,8 @@ function Achievements() {
   return (
     <section className="py-12 flex flex-col gap-12">
       {/* achievements */}
-      <div className="py-16 flex gap-20 bg-bg_gray  px-36">
-        <div className="flex flex-col gap-2 justify-center w-[46%]">
+      <div className="py-16 flex flex-col lg:flex-row gap-20 bg-bg_gray px-5 md:px-20  lg:px-36">
+        <div className="flex flex-col gap-2 justify-center lg:w-[46%]">
           <h1 className="text-4xl font-bold text-heading_black">
             Helping a local <br />
             <span className="text-primary">business reinvent itself</span>
@@ -33,11 +33,11 @@ function Achievements() {
       </div>
 
       {/* unlock */}
-      <div className="flex flex-row justify-between  px-36">
-        <div className="w-[45%]">
-          <img src="/howto/pana.png" alt="image" />
+      <div className="flex flex-col md:flex-row justify-between px-5 md:px-20 lg:px-36">
+        <div className="md:w-[45%] flex justify-center">
+          <img src="/howto/pana.png" alt="image" className="md:w-full" />
         </div>
-        <div className="flex flex-col justify-center gap-8 w-[55%]">
+        <div className="flex flex-col justify-center gap-8 md:w-[55%]">
           <div className="flex flex-col gap-4 w-[90%]">
             <h1 className="text-4xl font-bold text-heading_black">
               How to design your site footer like we did
@@ -61,11 +61,11 @@ function Achievements() {
       </div>
 
       {/* customers */}
-      <div className="flex flex-row justify-between px-36 bg-bg_gray py-8">
-        <div className="w-[35%]">
+      <div className="flex flex-col md:flex-row justify-between px-5 md:px-20 lg:px-36 bg-bg_gray py-8">
+        <div className="md:w-[35%] flex justify-center">
           <img src="/howto/image 9.png" alt="image" />
         </div>
-        <div className="flex flex-col gap-8 w-[65%]">
+        <div className="flex flex-col gap-8 md:w-[65%]">
           <div className="flex flex-col gap-4">
             <p className="text-sm font-normal text-text_black">
               Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
@@ -91,13 +91,13 @@ function Achievements() {
           </div>
           <div className="flex flex-row gap-8 items-center whitespace-nowrap">
             <div className="flex flex-row gap-10">
-              <div>
+              <div className="hidden md:block">
                 <img src="/clients/Logo-1.svg" alt="Logo-1" />
               </div>
-              <div>
+              <div className="hidden md:block">
                 <img src="/clients/Logo-2.svg" alt="Logo-1" />
               </div>
-              <div>
+              <div className="hidden md:block">
                 <img src="/clients/Logo-3.svg" alt="Logo-1" />
               </div>
               <div>

@@ -2,11 +2,11 @@ import React from "react";
 
 function Home() {
   return (
-    <section id="home" className=" py-24 px-36">
-      <div className="flex justify-between">
+    <section id="home" className=" px-5 md:py-12 md:px-20  lg:py-24 lg:px-36">
+      <div className="flex flex-col md:flex-row justify-between gap-3">
         <div className="flex flex-col gap-8 justify-center">
           <div className="flex flex-col gap-4 ">
-            <h1 className=" text-6xl font-semibold text-heading_black" style={{lineHeight:"76px"}}>
+            <h1 className=" text-3xl lg:text-6xl font-semibold text-heading_black">
               Lessons and insights <br />
               <span className="text-primary"> from 8 years</span>
             </h1>
@@ -17,8 +17,8 @@ function Home() {
           </div>
           <button className="py-[14px] px-8 bg-primary rounded w-fit text-white">Register</button>
         </div>
-        <div className="">
-            <img src="/home/Illustration.png" alt="home_image" className="w-full h-full object-cover" />
+        <div className="flex items-center justify-center">
+            <img src="/home/Illustration.png" alt="home_image" className=" w-[50%] md:w-full md:h-full object-cover" />
         </div>
       </div>
     </section>

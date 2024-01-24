@@ -7,9 +7,9 @@ interface Props{
 }
 function UpdateCard({image,desc}:Props) {
   return (
-    <div className=' w-[30%] flex flex-col items-center'>
+    <div className=' lg:w-[30%] flex flex-col items-center'>
         <div className='w-full'>
-            <img src={image} alt="image" />
+            <img src={image} alt="image" className='w-full' />
         </div>
         <div className='p-4 flex flex-col items-center gap-4 bg-bg_gray shadow-lg w-[90%] -mt-20 flex-1  rounded-lg '>
             <p className='text-lg font-semibold text-text_black text-center'>

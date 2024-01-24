@@ -3,18 +3,18 @@ import CommunityCard from "../components/CommunityCard";
 
 function Community() {
   return (
-    <section className="px-36 flex flex-col gap-[42px]">
+    <section className=" px-5 md:px-20 lg:px-36 flex flex-col gap-[42px]">
       {/* manage your entire community */}
       <div className="flex flex-col gap-4">
         <div className="flex flex-col gap-2 items-center">
-          <h1 className="text-4xl text-center font-semibold text-heading_black">
+          <h1 className=" text-2xl lg:text-4xl text-center font-semibold text-heading_black">
             Manage your entire community <br /> in a single system
           </h1>
           <p className="text-base font-normal text-text_black">
             Who is Nextcent suitable for?
           </p>
         </div>
-        <div className="flex justify-between">
+        <div className="flex flex-col lg:flex-row justify-between">
           <CommunityCard
             title="Membership Organisations"
             imagePath="/about/Icon-1.svg"
@@ -33,13 +33,13 @@ function Community() {
         </div>
       </div>
       {/* the unseen spending three years */}
-      <div className="flex flex-row justify-between">
-        <div className="px-[52px] w-[45%]">
-          <img src="/about/Frame 35.png" alt="image" />
+      <div className="flex flex-col md:flex-row justify-between">
+        <div className="lg:px-[52px] md:w-[50%] lg:w-[45%] flex justify-center">
+          <img src="/about/Frame 35.png" alt="image" className="w-[300px]" />
         </div>
-        <div className="flex flex-col justify-center gap-8 w-[55%]">
+        <div className="flex flex-col justify-center gap-8 md:w-[55%]">
           <div className="flex flex-col gap-4 w-[90%]">
-            <h1 className="text-4xl font-bold text-heading_black">
+            <h1 className="text-2xl lg:text-4xl font-bold text-heading_black">
               The unseen of spending three <br className=" hidden lg:block"/> years at Pixelgrade
             </h1>
             <p className="text-sm font-normal text-text_black">
@@ -51,7 +51,7 @@ function Community() {
               elementum pulvinar odio
             </p>
           </div>
-          <button className="py-[14px] px-8 bg-primary w-fit rounded text-white">Learn More</button>
+          <button className=" py-2 lg:py-[14px] px-8 bg-primary w-fit rounded text-white">Learn More</button>
         </div>
       </div>
     </section>

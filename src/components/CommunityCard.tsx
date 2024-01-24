@@ -8,7 +8,7 @@ interface Props {
 
 function CommunityCard({ imagePath, title, description }: Props) {
   return (
-    <div className="flex flex-col items-center w-[300px] py-6 px-8 rounded shadow-lg">
+    <div className="flex flex-col items-center lg:w-[300px] py-6 px-8 rounded shadow-lg">
       <div className="flex flex-col gap-4 items-center">
         <div>
           <img className="block" src={imagePath} alt="image" />
